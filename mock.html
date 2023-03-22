@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> DAY 2 </h1><br>
+    <h2>Explain br tag?</h2>
+    <p>The &lt;br&gt; tag in HTML documents is used to create a line break in a text. It is an
+        empty tag which means it does not need an end tag like &lt;/br&gt; so we can move to next line.
+        </p> <hr>
+        
+    <h2>Explain how many different types of lists we have in html </h2> 
+    <p> There are mainly three types of list in html ordered list, unordered list and description list i.e. ul,ol and dl. ul and ol have li inside it but dl contain dt and dd i.e.description term and details</p>   <hr>
+
+    <h2>What are semantic tags</h2>
+    <p>A semantic tags clearly describes its meaning to both the browser and the developer and clearly defines its content. Examples: article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        main,
+        mark,
+        nav,
+        section,
+        and summary. 
+        Examples of non-semantic elements: div and span - Tells nothing about its content.</p>
+        <hr>
+
+        <h2>Write code to create an ordered list with roman numbers</h2>
+        <p>Ordered list is used to create list elements which are following some
+        specific order. Its default type is number or “1”. Other types are 1,A,a,I and i.</p><br>
+        <h3>Code:</h3>
+        <pre>
+            &lt;ol type="I"&gt;
+                &lt;li&gt;Red&lt;/li&gt;
+                &lt;li&gt;Blue&lt;/li&gt;
+                &lt;li&gt;Black&lt;/li&gt;
+                &lt;li&gt;Green&lt;/li&gt;
+            &lt;/ol&gt;
+        &lt;/pre&gt;
+        <br>
+       <h3> Output:</h3>
+        <pre>
+        <ol type="I">
+            <li>Red</li>
+            <li>Blue</li>
+            <li>Black</li>
+            <li>Green</li>
+        </ol>
+    </pre>
+    <hr>
+
+    <h2>Write code to create an unordered list with circle </h2>
+    <p>Unordered list is used to create list elements which are random in fashion. Its default type is bullet or “disc”. Other types are “circle” , “square”, “none”.</p>
+    <br>
+        <h3>Code:</h3>
+        <pre>
+            &lt;ul type="circle"&gt;
+                &lt;li&gt;Red&lt;/li&gt;
+                &lt;li&gt;Blue&lt;/li&gt;
+                &lt;li&gt;Black&lt;/li&gt;
+                &lt;li&gt;Green&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/pre&gt;
+        <br>
+       <h3> Output:</h3>
+        <pre>
+        <ul type="circle">
+            <li>Red</li>
+            <li>Blue</li>
+            <li>Black</li>
+            <li>Green</li>
+        </ul>
+    </pre>
+    <hr>
+
+    <h2>Write code to create an nested list that contain order list(numeric)  first then unorderlist(disc) then again one unorder list(sqaure)</h2>
+    <h3>Code:</h3>
+    <pre>&lt;h1&gt;Fruits&lt;/h1&gt;
+        &lt;ol type="1"&gt;
+            &lt;li&gt;Apple&lt;/li&gt;
+            &lt;li&gt;Banana&lt;/li&gt;
+            &lt;li&gt;Pear&lt;/li&gt;
+            &lt;ul type="disc"&gt;
+                &lt;li>Green Apple&lt;/li&gt;
+                &lt;li>Red Apple&lt;/li&gt;
+                &lt;li>Apple&lt;/li&gt;
+                &lt;ul type="square"&gt;
+                    &lt;li>Demo&lt;/li&gt;
+                    &lt;li>Demo&lt;/li&gt;
+                    &lt;li>Demo&lt;/li&gt;
+                &lt;/ul&gt;
+            &lt;/ul&gt;
+        &lt;/ol&gt;</pre>
+<h3>Output:</h3>
+<pre><h1>Fruits</h1>
+    <ol type="1">
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Pear</li>
+        <ul type="disc">
+            <li>Green Apple</li>
+            <li>Red Apple</li>
+            <li>Apple</li>
+            <ul type="square">
+                <li>Demo</li>
+                <li>Demo</li>
+                <li>Demo</li>
+            </ul>
+        </ul>
+    </ol></pre>
+    <hr>
+    
+    <h2>Write code to create a link to https://www.prepbytes.com</h2>
+    <p>To create links in HTML, we use anchor tags. These tags can be used to redirect
+        to a new HTML page and also to a web page. So in href attribute we can give
+        the web page link or we can give the location of the html file we want to load.
+        target = “_blank” you can give when you want to open that page in a new tab.</p>
+        <br>
+        <h3>Code:</h3>
+        <pre>
+            &lt;h2&gt;Link to go to Prepbytes website.&lt;/h2&gt;
+            &lt;a href="https://www.prepbytes.com/" target="_blank"&gt;Prepbytes&lt;/a&gt;
+        </pre>
+        <h3>Output:</h3>
+        <pre>
+            <h2>Link to go to Prepbytes website.</h2>
+            <a href="https://www.prepbytes.com/" target="_blank">Prepbytes</a>
+        </pre><hr>
+
+</body>
+</html>
